@@ -1,5 +1,7 @@
 # gitps1
 
+show git branch and status in your bash prompt
+
 ## How to install
 
 * $ git clone https://github.com/ukari/gitps1
