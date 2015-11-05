@@ -2,6 +2,8 @@
 
 show git branch and status in your bash prompt
 
+![gitps1 demo](https://lh4.googleusercontent.com/-b3T_ZEQO1LA/VjYPC_-cLLI/AAAAAAAAAFk/2VRAG-8lIOQ/w591-h379-no/how%2Bgitps1%2Bworks.png)
+
 ## How to install
 
 * $ git clone https://github.com/ukari/gitps1
