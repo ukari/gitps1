@@ -6,16 +6,16 @@ show git branch and status in your bash prompt
 
 ## How to install
 
-* $ git clone https://github.com/ukari/gitps1
-* $ cd gitps1
-* $ cp gitps1.sh ~/.gitps1.sh
-* $ echo "source ~/.gitps1.sh">>~/.bashrc
+* $ `git clone https://github.com/ukari/gitps1`
+* $ `cd gitps1`
+* $ `cp gitps1.sh ~/.gitps1.sh`
+* $ `echo "source ~/.gitps1.sh">>~/.bashrc`
 
 ## How to remove
 
 * delete the gitps1 folder which you download before
-* $ rm -i ~/.gitps1.sh
-* $ sed -i '/source ~\/.gitps1.sh/d' ~/.bashrc
+* $ `rm -i ~/.gitps1.sh`
+* $ `sed -i '/source ~\/.gitps1.sh/d' ~/.bashrc`
 
 ## License
 
