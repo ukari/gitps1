@@ -16,7 +16,7 @@ git_ps1(){
 }
 
 if [ ! -z "${force_git_branch_prompt}" ];then
-    PS1='\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$(if [ -n "$git_branch" ] && [ ! -n "$git_status" ]; then echo "[\[\033[01;33m\]";elif [ -n "$git_branch" ];then echo "[\[\033[01;31m\]";else echo "\[\033[01;31m\]";fi)$(echo $git_branch$git_status)$(if [ -n "$git_branch" ] ; then echo "\[\033[00m\]]";fi)\[\033[00m\]\$ '
+    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$(if [ -n "$git_branch" ] && [ ! -n "$git_status" ]; then echo "[\[\033[01;33m\]";elif [ -n "$git_branch" ];then echo "[\[\033[01;31m\]";else echo "\[\033[01;31m\]";fi)$(echo $git_branch$git_status)$(if [ -n "$git_branch" ] ; then echo "\[\033[00m\]]";fi)\[\033[00m\]\$ '
 fi
 
 unset force_git_branch_prompt
